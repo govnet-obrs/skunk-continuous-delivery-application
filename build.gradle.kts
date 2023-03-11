@@ -50,7 +50,7 @@ jib{
         }
     }
     to {
-        image = "zalerix/continuous-delivery-example"
+        image = "gfsekamanya/continuous-delivery-example"
         tags = setOf("latest", "${project.version}")
         auth {
             username = System.getenv("DOCKER_USER")
