@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/govnet-obrs/skunk-continuous-delivery-application/compare/1.0.0...1.1.0) (2023-03-11)
+
+
+### Features
+
+* added ronald-adonyo to users list ([f680401](https://github.com/govnet-obrs/skunk-continuous-delivery-application/commit/f680401207db0d179df352918be9edc8e6f079e0))
+* added ronald-adonyo to users list ([9854551](https://github.com/govnet-obrs/skunk-continuous-delivery-application/commit/9854551b124c1dcb68dece4367513a88ac1eb3fc))
+
 # 1.0.0 (2023-03-11)
 
 
