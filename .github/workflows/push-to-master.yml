@@ -75,7 +75,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.PAT }}
-          repository: zlaval/continuous-delivery-manifests
+          repository: govnet-obrs/skunk-continuous-delivery-manifests
           ref: master
       - name: Set Image
         uses: stefanprodan/kube-tools@v1
@@ -84,7 +84,7 @@ jobs:
           kustomize: 4.5.4
           command: |
             cd base
-            kustomize edit set image zalerix/continuous-delivery-example:latest=zalerix/continuous-delivery-example:${{ env.app_version }}
+            kustomize edit set image docker.io/gfsekamanya/continuous-delivery-example:latest=docker.io/gfsekamanya/continuous-delivery-example:${{ env.app_version }}
             git config --global user.email "cibot@gmail.com"
             git config --global user.name "CI bot"
             git add .
