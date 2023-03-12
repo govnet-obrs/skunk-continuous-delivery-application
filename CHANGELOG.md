@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/govnet-obrs/skunk-continuous-delivery-application/compare/1.1.0...1.2.0) (2023-03-12)
+
+
+### Features
+
+* added two more users ([63fe575](https://github.com/govnet-obrs/skunk-continuous-delivery-application/commit/63fe57580a081e27aa8ab736463615ec5c72b18e))
+
 # [1.1.0](https://github.com/govnet-obrs/skunk-continuous-delivery-application/compare/1.0.0...1.1.0) (2023-03-11)
 
 
