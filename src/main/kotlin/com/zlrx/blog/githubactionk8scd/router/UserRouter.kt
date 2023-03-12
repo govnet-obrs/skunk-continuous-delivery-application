@@ -39,5 +39,6 @@ class UserService {
         emit(User(1, "zlaval"))
         emit(User(2, "zalerix-modify"))
         emit(User(3, "ronald-adonyo"))
+        emit(User(4, "peter-parker"))
     }
 }
